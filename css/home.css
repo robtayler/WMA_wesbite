@@ -1,0 +1,166 @@
+@font-face {
+	font-family: '"Helvetica Neue",Helvetica,Arial,sans-serif;';
+	src: url('"Helvetica Neue",Helvetica,Arial,sans-serif;.ttf')  format('truetype');
+}
+
+#dates{
+	position: absolute;
+	width: 46.25%;
+	height: 45%;
+	left: 2.5%;
+	right: 51.25%;
+	top: 2.5%;
+	bottom: 52.5%;
+	border: 1px solid white;
+	/*overflow-x: auto;
+	overflow-y: auto;*/
+	opacity: 0.9;
+	background-color: gray;
+	font-size: 18px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 18px;
+}
+
+#forum {
+	position: absolute;
+	width: 46.25%;
+	height: 45%;
+	left: 51.25%;
+	right: 2.5%;
+	top: 2.5%;
+	bottom: 52.5%;
+	border: 1px solid white;
+	/*overflow-x: auto;
+	overflow-y: auto;*/
+	opacity: 0.9;
+	background-color: gray;
+	font-size: 18px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 18px;
+	
+}
+
+#main{
+	position: absolute;
+	width: 95%;
+	height: 45%;
+	left: 2.5%;
+	right: 2.5%;
+	top: 50%;
+	bottom: 2.5%;
+	background-color: grey;
+	opacity: 0.9;
+	/*overflow-x: auto;
+	overflow-y: auto;*/
+	font-size: 16px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 18px;
+}
+
+#rules{
+	position: absolute;
+	height:95%;
+	width: 23.75%;
+	left: 2.5%;
+	right: 73.75%;
+	top: 2.5%;
+	bottom: 2.5%;
+	border: 1px solid white;
+	/*overflow-x: auto;
+	overflow-y: auto;*/
+	opacity: 1;
+	font-size: 16px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 18px;
+}
+
+#trainingtimes{
+	position: absolute;
+	height:95%;
+	width: 23.75%;
+	left: 26.25%;
+	right: 50%;
+	top: 2.5%;
+	bottom: 2.5%;
+	border: 1px solid white;
+	/*overflow-x: auto;
+	overflow-y: auto;*/
+	opacity: 1;
+	font-size: 16px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 18px;
+}
+
+#instructors{
+	position: absolute;
+	height:95%;
+	width: 23.75%;
+	left: 50%;
+	right: 26.25%;
+	top: 2.5%;
+	bottom: 2.5%;
+	border: 1px solid white;
+	/*overflow-x: auto;
+	overflow-y: auto;*/
+	opacity: 1;
+	font-size: 16px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 18px;
+}
+#instructors:hover {
+	cursor: pointer;
+}
+/* PHOTOS */
+#clubphoto:{
+	image-orientation: 270deg;
+	
+}
+#oldphoto: {
+	style="image-orientation": 90deg;
+}
+#3rd4thdangrading: {
+	
+}
+#bo-kamae: {
+	
+}
+#kamae: {
+	
+}
+/* END OF PHOTOS */
+
+#socialmedia{
+	position: absolute;
+	height:95%;
+	width: 23.75%;
+	left: 73.75%;
+	right: 2.5%;
+	top: 2.5%;
+	bottom: 2.5%;
+	border: 1px solid white;
+	/*overflow-x: auto;
+	overflow-y: auto;*/
+	opacity: 1;
+	display: block;
+	font-size: 16px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 18px;
+	
+}
+#fb:hover {
+	cursor: pointer;
+}

@@ -1,0 +1,31 @@
+<html>
+	<head>
+		<link rel="StyleSheet" type="text/css" href="../../css/syllabus.css" />
+		<script src="../../js/showHide.js"></script>
+	</head>
+	<body>
+		<div id="main">
+			<p class="heading">New user</p>
+			<form action="../../php/insert.php" method="post">
+			Username: <input type="text" name="naming" />
+			<br />
+			<br />
+			Password: <input type="password" name="passwording" />
+			<br />
+			<br />
+			<input type="submit" value="subscribe" />
+			</form>
+			<p class="heading">Existing user</p>
+			<form action="../../php/check.php" method="post">
+			Username: <input type="text" name="naming" />
+			<br />
+			<br />
+			Password: <input type="password" name="passwording" />
+			<br />
+			<br />
+			<input type="submit" value="login" />
+			</form>
+		
+		</div>
+	</body>
+</html>

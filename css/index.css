@@ -1,0 +1,469 @@
+@font-face {
+  font-family: '"Helvetica Neue",Helvetica,Arial,sans-serif;';
+  src: url('"Helvetica Neue",Helvetica,Arial,sans-serif;.ttf')  format('truetype');
+}
+
+body {
+	width:100%;
+	height:100%;
+	margin:0;
+	padding:0;
+	background-image: url(../media/images/iron_texture.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	font-size: 1vw;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;;
+	letter-spacing: 3px;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+.heading {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 700;
+	line-height: 14px;
+	text-align: center;
+}
+
+.contentsOfDiv {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0%;
+	right: 0%;
+	top: 0%;
+	bottom: 0%;
+	opacity: 1;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 14px;
+	text-align: center;
+}
+}
+
+.centering {
+	margin-top: 5%;
+	text-align: center;
+}
+
+.instructors {
+	position: absolute;
+	left: 19.25%;
+	right: 10%;
+	top: 20%;
+	bottom: 10%;
+}
+
+/* LINKS */
+
+a:link {
+	color: blue;
+}
+
+a:hover {
+	color: white;
+}
+
+a:active {
+	color: green;
+}
+
+a:visited {
+	color: red;
+}
+
+/* END LINKS */
+
+#container{
+	position: relative;
+	width: 95%;
+	height: 100%;
+	left: 2.5%;
+	right: 2.5%;
+	top: 0%;
+	bottom: 0%;
+	overflow-x: auto;
+	overflow-y: auto;
+}
+
+#header {
+	position: absolute;
+	background-color:black;
+	font-size: 18px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 14px;
+	text-align: center;
+	width:95%;
+	height:20%;
+	left: 2.5%;
+	right: 2.5%;
+	top: 2.5%;
+	bottom: 87.5%;
+}
+
+/* MAP */
+
+#map {
+	position: absolute;
+	color: white;
+	width: 29%;
+	height: 96%;
+	left: 2%;
+	right: 69%;
+	top: 2%;
+	bottom: 2%;
+}
+
+#mapTitle {
+	position: absolute;
+	width: 100%;
+	height: 5%;
+	left: 0%;
+	right: 0%;
+	top: 0%;
+	bottom: 95%;
+	z-index: 100;
+}
+
+#mapMap {
+	position: absolute;
+	width: 100%;
+	height: 90%;
+	left: 0%;
+	right: 0%;
+	top: 5%;
+	bottom: 5%;
+}
+
+#iframe1{
+	position: absolute;
+	padding: 0;
+	margin: 0;
+	overflow:hidden;
+}
+
+/* END MAP */
+
+#logo {
+	position: absolute;
+	color: white;
+	width: 29%;
+	height: 96%;
+	left: 35%;
+	right: 36%;
+	top: 2%;
+	bottom: 2%;
+}		
+
+#logoDiv {
+	position: absolute;
+	cursor: pointer;
+	width: 100%;
+	height: 100%;
+	background-image: url('../media/images/WMA_Logo.png');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+#socialcontact {
+	position: absolute;
+	color: white;
+	width: 29%;
+	height: 96%;
+	left: 68%;
+	right: 2%;
+	top: 2%;
+	bottom: 2%;
+}
+
+/* NAVIGATION */
+
+#nav {
+	position: absolute;
+	font-family: ""Helvetica Neue",Helvetica,Arial,sans-serif;";
+	text-align: center;
+	background-color:red;
+	font-size: 24px;
+	font-style: bolder;
+	font-variant: normal;
+	font-weight: 700;
+	line-height: 24px;
+	width: 95%;
+	height: 5%;
+	left: 2.5%;
+	right: 2.5%;
+	top: 25%;
+	bottom: 70%;
+}
+
+#navHome {
+	position: absolute;
+	text-align: center;
+	cursor: pointer;
+	width: 20%;
+	height: 100%;
+	left: 0%;
+	right: 80%;
+	top: 0%;
+	bottom: 0%;
+	background-image: url("");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;*/
+}
+
+#navSyllabus {
+	position: absolute;
+	cursor: pointer;
+	width: 20%;
+	height: 100%;
+	left: 20%;
+	right: 60%;
+	top: 0%;
+	bottom: 0%;
+	background-image: url("");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;*/
+}
+
+#navKatas {
+	position: absolute;
+	cursor: pointer;
+	width: 20%;
+	height: 100%;
+	left: 40%;
+	right: 40%;
+	top: 0%;
+	bottom: 0%;
+	/*background-image: url("");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;*/
+}
+
+#navhistory {
+	position: absolute;
+	cursor: pointer;
+	width: 20%;
+	height: 100%;
+	left: 60%;
+	right: 20%;
+	top: 0%;
+	bottom: 0%;
+	/*background-image: url("");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;*/
+}
+
+#navEngJap {
+	position: absolute;
+	cursor: pointer;
+	width: 20%;
+	height: 100%;
+	left: 80%;
+	right: 0%;
+	top: 0%;
+	bottom: 0%;
+	/*background-image: url("");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;*/
+}
+
+#navHome:hover {
+	background-color: white;
+}
+
+#navSyllabus:hover {
+	background-color: white;
+}
+
+#navSyllabus:hover #syllabusDropdown {
+	display: block;
+}
+
+#navKatas:hover {
+	background-color: white;
+}
+
+#navKatas:hover #katasDropdown {
+	display: block;
+}
+
+#navhistory:hover {
+	background-color: white;
+}
+
+#navEngJap:hover {
+	background-color: white;
+}
+
+/* END NAVIGATION */
+
+#content{
+	position: absolute;
+	overflow: auto;
+	height: 52.5%;
+	width: 95%;
+	left: 2.5%;
+	right: 2.5%;
+	top: 32.5%;
+	bottom: 12.5%;
+	background-image: url("../media/images/metaltexture.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	color: white;
+}
+
+
+/* DROPDOWN */
+
+#syllabusDropdown {
+	position: absolute;
+	width: 100%;
+	list-style: none;
+	display: none;
+	z-index: 100;
+	text-align: center;
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	padding: 0;
+	margin: 0;
+	margin-top: 1%;
+}
+
+#syllabusDropdown li {
+	width: 100%;
+	background-color: red;
+	border-bottom: 1px solid black;
+}
+
+#syllabusDropdown li a {
+	color: black;
+	text-decoration: none;
+	width: 100%;
+}
+
+#syllabusDropdown li:hover {
+	background-color: white;
+}
+
+#katasDropdown{
+	position: absolute;
+	width: 100%;
+	list-style: none;
+	display: none;
+	z-index: 100;
+	text-align: center;
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	padding: 0;
+	margin: 0;
+	margin-top: 1%;
+}
+
+#katasDropdown li {
+	width: 100%;
+	background-color: red;
+	border-bottom: 1px solid black;
+}
+
+#katasDropdown li a {
+	color: black;
+	text-decoration: none;
+	width: 100%;
+}
+
+#katasDropdown li:hover {
+	background-color: white;
+}
+
+/* FOOOTER */
+#footer{
+	position: absolute;
+	width:95%;
+	height:10%;
+	left: 2.5%;
+	right: 2.5%;
+	top: 87.5%;
+	bottom: 2.5%;
+	background-color: black;
+	font-size: 18px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 800;
+	line-height: 20px;
+	text-align: center;
+}
+
+#videolinks{
+	position: absolute;	
+	height:100%;
+	width:33.3%;
+	left: 0%;
+	right: 66.6%;
+	top: 0%;
+	bottom: 0%;
+	color: white;
+	/*overflow-x: auto;
+	overflow-y: auto;*/
+}
+
+#pagelinks{
+	position: absolute;	
+	height:100%;
+	width:33.3%;
+	left: 33.3%;
+	right: 33.3%;
+	top: 0%;
+	bottom: 0%;
+	color: white;
+	/*overflow-x: auto;
+	overflow-y: auto;*/
+}
+#ufc{
+	position: absolute;
+	border-style: solid;
+    border-color: #0000ff;
+	height:100%;
+	width:98%;
+}
+	#ufc:hover {
+	cursor: pointer;
+	}
+	
+#blitz{
+	position: absolute;
+	border-style: solid;
+    border-color: #0000ff;
+	height:100%;
+	width:98%;
+}
+	#blitz:hover {
+	cursor: pointer;
+	}
+	
+#socialcontact1{
+	position: absolute;
+	height:100%;
+	width:33.3%;
+	left: 66.6%;
+	right: 0%;
+	top: 0%;
+	bottom: 0%;
+	color: white;
+	/*overflow-x: auto;
+	overflow-y: auto;*/
+}
+
+/* END OF FOOTER */

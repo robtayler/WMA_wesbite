@@ -1,0 +1,55 @@
+@font-face {
+	font-family: '"Helvetica Neue",Helvetica,Arial,sans-serif;';
+	src: url('"Helvetica Neue",Helvetica,Arial,sans-serif;.ttf')  format('truetype');
+}
+
+
+li {
+	list-style: none;
+}
+
+a:link {
+	color: white;
+}
+
+a:hover {
+	color: white;
+}
+
+a:active {
+	color: white;
+}
+
+a:visited {
+	color: white;
+}
+
+.heading {
+	font-size: 1.8vw;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;;
+	text-align: center;
+}
+
+#main{
+	position: absolute;
+	width: 95%;
+	height: 100%;
+	left: 2.5%;
+	right: 2.5%;
+	top: 2.5%;
+	bottom: 2.5%;
+	background-color: black;
+	opacity: 0.9;
+	border: 1px solid white;
+	color: white;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;;
+	text-align: center;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 14px;
+	letter-spacing: 3px;
+	overflow-x:hidden;
+	overflow-y:scroll;
+}
